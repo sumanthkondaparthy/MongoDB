@@ -1,0 +1,25 @@
+                                             MongoDB:
+
+>>>In MongoDB tables are called as "COLLECTIONS".
+
+>>>In MongoDB rows are called as "Document".
+
+>>>In MongoDB cloumns are called as "Fields".
+
+            Quriers for MongoDB.
+
+1. How to check the present working DB.
+   <db>
+2. How to create/ Switch the particular DB.
+   use db_name.
+3. How to check the tables(collections) in particular db.
+    show collections.
+4.To check all DB's in MongoDB.
+    show dbs
+5. How to insert particular record in DB.
+   db.db_name.insertOne({})
+6. How to insert Many record ins DB.
+     db.db_name insertMany([{},{},{}....])
+7. How to check the inserted data.
+    db.db_name.find().pretty()
+8. 
