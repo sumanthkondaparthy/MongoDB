@@ -22,3 +22,5 @@
      db.db_name insertMany([{},{},{}....])
 7. How to check the inserted data.
     db.db_name.find().pretty()
+8.
+9.
